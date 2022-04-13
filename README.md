@@ -35,4 +35,4 @@ To get this project copy up and running follow these simple steps.
 
 ## Usage
 
-_How it looks in production, please refer to the [Link](https://example.com)_
+_How it looks in production, please refer to the [Link](https://rent-a-car-xi.vercel.app/)_
