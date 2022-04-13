@@ -1,6 +1,6 @@
 ## About The Project
 
-While developing the project with Next.js technology, my main focus was to create a responsive structure with CSS3. For this reason, the menus in the project do not work actively. Therefore, the part I want you to focus on primarily is the design of the project.
+While developing this project with Next.js technology, my main focus was to create a responsive structure with CSS3. For this reason, menus in the project do not work actively. Therefore, the part I want you to focus on first is the design of the project.
 
 ### Built With
 
