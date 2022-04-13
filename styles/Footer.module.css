@@ -1,0 +1,259 @@
+
+.footer {
+  width: 100%;
+  background-image: url('/footerBackgroundImage.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card_overlay {
+  width: inherit;
+  height: inherit;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.subscribe {
+  width: 70%;
+  height: 100px;
+  background-color: #0D334F;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.subscribe p {
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+.subscribe input {
+  width: 400px;
+  height: 50px;
+  background: none;
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-color: #ccc;
+  font-style: italic;
+}
+.subscribe input:focus {
+  outline: none;
+  color: #ccc;
+}
+
+.subscribe input::placeholder {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.subscribe a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe_btn {
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  background-color: #DD484E;
+  border-radius: 3px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.subscribe_btn span {
+  margin-left: 5px;
+}
+
+.links {
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.link_item {
+  max-width: 250px;
+  margin-right: 80px;
+}
+
+.link_item_title {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.link_item_hr {
+  width: 50px;
+}
+.hr_first{
+  border: 2px solid #DD484E;
+  margin-bottom: 4px;
+}
+
+.hr_second {
+  border: 1px solid #DD484E;
+}
+
+.link_item_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin-top: 20px;
+}
+
+.link_item_body p {
+  color: #ccc;
+  line-height: 1.2em;
+  text-align: left;
+}
+
+.link_item_body > .link {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.link_item_body > .link a {
+  text-align: left;
+}
+
+.link_item_body > .link > .icon {
+  color: #DD484E;
+  font-weight: bold;
+}
+
+.item_link {
+  text-decoration: none;
+}
+
+.link_item_body a {
+  color: #ccc;
+  padding: 5px;
+}
+
+.foter_desc {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ccc;
+  margin-top: 40px;
+}
+
+.foter_desc > .bold_text {
+  color: #fff;
+  font-weight: 300;
+}
+
+
+@media all  and  (max-width: 480px) {
+  .footer {
+    width: 100%;
+    background-image: url('/footerBackgroundImage.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .subscribe {
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .links {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .subscribe p {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+  
+  .subscribe input {
+    width: 100%;
+    height: 50px;
+    background: none;
+    border-width: 0;
+    border-bottom-width: 1px;
+    border-color: #ccc;
+    font-style: italic;
+  }
+
+  .subscribe a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .subscribe_btn {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: #DD484E;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .link_item {
+    min-width: 250px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .foter_desc {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.3;
+    margin-top: 40px;
+  }
+}
+
+@media all  and  (max-width: 768px) {
+  .links {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .link_item {
+    min-width: 250px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media all  and  (max-width: 1024px) {
+  .links {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .link_item {
+    max-width: 250px;
+    min-width: 200px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,159 @@
+
+.choose {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.choose_container {
+  width: 40%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line {
+  width: 35px;
+  margin: 0 10px 0 10px;
+}
+
+.line hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #0d334f;
+  border: none;
+  height: 1px;
+}
+
+.choose_container p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.choose_options button {
+  height: 50px;
+  width: 150px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  margin-left: -4px;
+  transition: 0.3s ease-in;
+  border-right: 1px solid #ccc;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.choose_options button:hover,
+.choose_options button:nth-child(1) {
+  background-color: #dd484e;
+  color: #fff;
+}
+
+.card_list {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_list_container {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media all  and  (max-width: 480px) {
+  .choose {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .choose_container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .choose_container h1 {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .choose_options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .choose_options button {
+    height: 50px;
+    width: 100%;
+    margin: 15px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    transition: 0.3s ease-in;
+  }
+
+  .card_list_container {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
+
+@media all  and  (min-width: 481px) and (max-width: 768px) {
+  .choose {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .choose_container {
+    width: 70%;
+    margin-top: 50px;
+  }
+
+}
+
+@media all  and  (max-width: 1024px) {
+  .choose {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .choose_container {
+    width: 70%;
+    margin-top: 50px;
+  }
+} 

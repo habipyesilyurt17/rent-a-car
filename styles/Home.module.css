@@ -1,17 +1,17 @@
-.container {
-  padding: 0 2rem;
-}
-
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+.home_content {
+  /* min-height: 100vh;
+  flex: 1 1; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.home_content hr {
+  position: relative;
+  margin-top: 900px;
+}
+/* 
 .footer {
   display: flex;
   flex: 1;
@@ -112,5 +112,13 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+} */
+
+
+@media all  and  (max-width: 480px) {
+  .home_content_hr {
+    position: relative;
+    margin-top: 950px;
   }
 }

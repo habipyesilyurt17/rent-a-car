@@ -1,0 +1,153 @@
+.search {
+  width: 100%;
+  height: 200px;
+  background-color: #0d334f;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search_content {
+  width: 70%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search_title {
+  display: flex;
+  flex-direction: column;
+}
+
+.starts {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.line {
+  width: 35px;
+  height: 1px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: #ababab;
+}
+
+.star_white {
+  color: #fff;
+}
+
+.star_red {
+  color: #dd484e;
+}
+
+.search_title p {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.search_title {
+  min-width: 200px;
+}
+
+.search_inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_inputs input {
+  width: 300px;
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  margin: 10px;
+}
+
+.search_inputs input::placeholder {
+  font-style: italic;
+}
+
+
+.search_button {
+  display: flex;
+}
+
+.search_button button {
+  width: 80px;
+  height: 103px;
+  background-color: #dd484e;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+.search_button button i {
+  margin-bottom: 10px;
+}
+
+@media all  and  (max-width: 1024px) {
+  .search {
+    width: 100%;
+    height: 250px;
+    background-color: #0d334f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media all  and  (max-width: 768px) {
+  .search {
+    width: 100%;
+    height: 250px;
+    background-color: #0d334f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media all  and  (max-width: 480px) {
+  .search {
+    width: 100%;
+    background-color: #0d334f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+  }
+
+  .search_content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search_title {
+    align-items: center;
+  }
+
+  .search_inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d334f;
+  }
+
+  .search_button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #0d334f;
+
+  }
+
+}

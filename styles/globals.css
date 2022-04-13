@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.mr_5 {
+  margin-right: 5px;
+}
